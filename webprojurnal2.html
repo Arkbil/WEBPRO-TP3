@@ -6,20 +6,26 @@
 </head>
 <body>
 
-  <!-- Judul -->
-  <h1 align="center">Profil Diri</h1>
+  <h1 align="center">Profil Diri</h1> 
 
-  <!-- Foto & Biodata -->
+  <!-- Div: mengelompokkan elemen agar mudah diatur posisinya -->
   <div align="center">
+    <!-- Table: membuat tabel utama untuk tata letak -->
     <table border="0" cellpadding="10">
+      <!-- tr: mendefinisikan baris tabel -->
       <tr>
+        <!-- td: sel tabel -->
         <td>
+          <!-- Img: menampilkan gambar -->
           <img src="foto.jpg" alt="Foto Profil" width="200" height="200">
         </td>
         <td>
+          <!-- Table: tabel biodata -->
           <table border="1" cellpadding="8" cellspacing="0">
             <tr>
+              <!-- th: header tabel -->
               <th>Nama</th>
+              <!-- td: isi sel tabel -->
               <td>Nabiel Muhamad Irfani</td>
             </tr>
             <tr>
@@ -36,24 +42,24 @@
     </table>
   </div>
 
-  <!-- Tentang Saya -->
   <h2 align="center">Tentang Saya</h2>
   <div align="center">
+    <!-- Table: tabel untuk menata teks dalam bingkai -->
     <table border="1" cellpadding="8" cellspacing="0" width="80%">
       <tr>
         <td>
-          Halo, saya <b>Nabiel Muhamad Irfani</b>. Saya memiliki minat dan pengalaman di bidang 
+          Halo, saya <b>Nabiel Muhamad Irfani</b>. 
+          Saya memiliki minat dan pengalaman di bidang 
           <i>IoT & Embedded System</i>, <i>Quality Assurance Engineer</i>, dan <i>Game Programmer</i>. 
-          Selain itu, saya senang belajar hal baru, berdiskusi, serta berbagi ide untuk menciptakan solusi yang bermanfaat. 
-          Di waktu luang, saya juga suka menikmati alam dan mengisi energi kembali dengan cara sederhana.
+          Selain itu, saya senang belajar hal baru, berdiskusi, serta berbagi ide untuk menciptakan solusi yang bermanfaat. Di waktu luang, saya juga suka menikmati alam dan mengisi energi kembali dengan cara sederhana.
         </td>
       </tr>
     </table>
   </div>
 
-  <!-- Keterampilan -->
   <h2 align="center">Keterampilan</h2>
   <div align="center">
+    <!-- Table: daftar keterampilan -->
     <table border="1" cellpadding="8" cellspacing="0">
       <tr>
         <th>HTML</th>
@@ -70,38 +76,41 @@
     </table>
   </div>
 
-  <!-- Video -->
   <h2 align="center">Video Perkenalan</h2>
   <div align="center">
+    <!-- Video: menampilkan video dengan kontrol -->
     <video width="400" controls>
       <source src="video.mp4" type="video/mp4">
-      Browser Anda tidak mendukung video.
     </video>
   </div>
 
-  <!-- Form -->
   <h2 align="center">Hubungi Saya</h2>
+  <!-- Form: wadah untuk input dari pengguna -->
   <form align="center">
     <p>
       <label>Nama:<br>
+      <!-- Input: kolom teks -->
       <input type="text" name="nama" placeholder="Masukkan nama Anda"></label>
     </p>
     <p>
       <label>Email:<br>
+      <!-- Input: kolom email -->
       <input type="email" name="email" placeholder="Masukkan email Anda"></label>
     </p>
     <p>
       <label>Pesan:<br>
+      <!-- Textarea: kotak teks untuk input panjang -->
       <textarea name="pesan" rows="4" cols="30" placeholder="Tulis pesan di sini"></textarea></label>
     </p>
     <p>
+      <!-- Button: tombol untuk mengirim form -->
       <button type="submit">Kirim</button>
     </p>
   </form>
 
-  <!-- Link -->
   <div align="center">
     <p>
+      <!-- A (anchor): membuat hyperlink -->
       <a href="https://www.linkedin.com/in/nabielmirfani/" target="_blank">Kunjungi LinkedIn Saya</a> |
       <a href="https://github.com/Arkbil" target="_blank">Kunjungi Github Saya</a> |
       <a href="https://x.com/nabillism_" target="_blank">Kunjungi Twitter Saya</a>
